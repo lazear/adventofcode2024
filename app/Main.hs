@@ -1,8 +1,7 @@
 module Main where
 
-import qualified Day2(run)
+import qualified Day3(run)
 
 main :: IO ()
 main = do
-  putStrLn "Hello, Haskell!"
-  Day2.run "data/day2"
+  Day3.run "data/day3"
